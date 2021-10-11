@@ -1,0 +1,11 @@
+public class Products
+
+    private final String name
+    private final double price
+    private final long quantity
+
+    getter for name
+    getter for price
+    getter for quantity
+
+    constructor for name,price, and quantity

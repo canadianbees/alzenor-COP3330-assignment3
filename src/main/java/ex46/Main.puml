@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+Main <|-- Frequency
+
+class Main
+{
++public static void main(String [] args)
+}
+class Frequency {
++public Map<String,Integer> getWords(File file)
++public void wordFreq(Map<String,Integer> tracker)
++public Map<String,Integer> sortByFreq(Map<String,Integer> tracker)
+}
+
+@enduml

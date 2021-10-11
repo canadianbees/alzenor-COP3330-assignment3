@@ -1,0 +1,12 @@
+public class main
+
+    main method
+        initialize file to input file path
+
+        if file does not exist
+            print "File does not exist"
+
+        else
+            initialize empRecords to getData
+
+            print printChart with printChart's parameters being listOfEmployees with file being passed into listOfEmployees

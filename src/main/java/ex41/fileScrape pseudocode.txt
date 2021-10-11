@@ -1,0 +1,47 @@
+public class fileScrape
+
+
+
+	String readNOut method takes in File file throws IOException
+	{
+		initialize reader using BufferedReader //to read in file
+		initialize writr using BufferedWriter	//to write to output file
+		initalize TreeMap list
+		initialize int counter
+		initialize int longest
+		declare String [] fullName
+		declare String personName;
+		
+		While loop runs until end of file (null) is reached
+			if length of personName is greater than longest
+				longest is equal to length of personName
+		
+			put personName into separate indexes of a fullName using split by " "
+			put fullName[0] as the key and fullName[1] as the value in the list //fullName[0] is the last name and fullName[1] is the first name
+			
+			add 1 to the count
+
+		close reader
+		
+		initialize String output, set equal to "Total of "+count+" names\n"
+		
+		for loop that runs until longest value is reached
+			add dashes to the output string
+
+		add a new line to the output string
+		
+		for each item in the list
+			add item's key and item's value, separated by a space to the output string, add a newline at the end of it
+		
+		write output string to output file
+
+		return output string
+
+	}
+
+
+}
+			
+				
+
+			

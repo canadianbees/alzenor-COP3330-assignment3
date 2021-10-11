@@ -1,0 +1,68 @@
+public class Frequency
+
+    public Map<String,Integer> getWords method takes in File file throws IOException
+
+        initialize BufferedReader read to file
+        initialize Map<String,Integer> tracker to new HashMap
+
+        declare String line
+        initialize String words to ""
+
+        while line does not read in null
+
+            add line and " " to words
+
+
+        initialize String [] array to words split by " "
+
+        for each string in array
+
+            if tracker already has the word in it
+                add one to its value
+
+
+            else
+
+            put word into tracker, with its value being 1
+
+        return tracker
+
+    public String wordFreq method takes in Map<String,Integer> tracker
+
+        initialize int longest to 0
+        initialize String output to ""
+
+        for each item in tracker
+            if length of item's key is greater than longest
+                longest is equal to length of item's key
+
+        for each item in tracker
+
+            initialize String s to item's key
+            add ":" to s
+
+            while the length of s is less than or greater to longest+2
+                add " " to s
+
+            add s to output
+
+            for loop running from i = 0 to i < item's value, incremented by one each time
+                add "*" to output
+
+            add newline character to output
+
+
+    return output;
+
+    public Map<String, Integer> sortByFreq method takes in Map<String,Integer> tracker
+
+        initialize List<Map.Entry<String,Integer>> list to LinkedList of tracker's contents
+
+        do collections sort on list to sort from greatest to smallest value
+
+        initialize HashMap<String,Integer> sorted to new LinkedHashMap
+
+        for each item in list
+            put item's key and value into sorted
+
+        return sorted

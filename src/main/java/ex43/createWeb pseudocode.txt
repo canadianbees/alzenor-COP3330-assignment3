@@ -1,0 +1,68 @@
+public class createWeb
+
+    public String askSiteName method
+
+        Initialize name to "";
+        Initialize input to take in user input using Scanner
+        print "site name: "
+        add user input to name string
+
+        return name
+
+
+    public String askAuthor method
+
+        Initialize name to "";
+        Initialize input to take in user input using Scanner
+        print "Author: "
+        add user input to name string
+
+        return name
+
+
+    public void genWeb method takes in String sitename and String author throws IOException
+
+        Initialize input to take in user input using Scanner
+        print "Do you want a folder for JavaScript? "
+        Initialize String js to user input
+
+        print "Do you want a folder for CSS?"
+        "Created ./src/main/java/ex43/website/"+sn String css to user input
+
+        if the main directory doesn't exist
+            print "Created ./src/main/java/ex43/website/"+sn
+
+        else
+            print "The main directory already exists!"
+
+        Initialize  index using createHTML class
+        call genHTML with sitename and author as its parameters
+
+        print "Created ./src/main/java/ex43/website/index.html"
+
+        if js matches y
+            if js directory doesn't exist
+                print "Created ./src/main/java/ex43/website/"+sn+"/js/"
+
+            else
+                print "The JavaScript directory already exists!"
+
+        if css matches y
+                        if css directory doesn't exist
+                            print "Created ./src/main/java/ex43/website/"+sn+"/css/"
+
+                        else
+                            print "The CSS directory already exists!"
+
+        close input
+
+
+    public boolean cssDirect method takes in String sitename
+        returns true and make file path if the file path doesn't exist, returns false if the file path already exists
+
+    public boolean jsDirect method takes in String sitename
+            returns true and make file path if the file path doesn't exist, returns false if the file path already exists
+
+    public boolean mainDirect method takes in String sitename
+            returns true and make file path if the file path doesn't exist, returns false if the file path already exists
+

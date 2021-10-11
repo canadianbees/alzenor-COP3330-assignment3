@@ -1,0 +1,42 @@
+public class getLengths
+
+
+	public int getLongestLN takes in List<Employee> x
+
+		initialize longestLast to 0
+		
+		for each employee in x
+			if length of employee's last name is longer then longestLast
+				longestLast is equal to length of employee's last name
+		
+		return longestLast+2;
+
+
+
+
+	public int getLongestFN takes in List<Employee> x
+
+
+		initialize longestFirst to 0
+		
+		for each employee in x
+			if length of employee's first name is longer then longestFirst 
+				longestFirst is equal to length of employee's first name
+		
+		return longestFirst+2;
+
+
+
+
+	public int getLongestSAL takes in List<Employee> x
+
+
+		initialize salLength to 0
+		
+		for each employee in x
+			if length of employee's salary is longer then salLength 
+				salLength is equal to length of employee's salary 
+		
+		return salLength+2;
+
+

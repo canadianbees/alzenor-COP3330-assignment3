@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Main <|-- Store
+Store <|-- "contains" Product
+
+class Main
+{
++public static void main(String [] args)
+}
+
+class Product {
++private final String name;
++private final double price;
++private final long quantity;
+
++public String getName()
++public double getPrice()
++public long quantity()
+}
+
+class Store {
++public String findThis()
++public Map<String, Products> readJSON()
++public boolean searchStore()
+}
+
+@enduml

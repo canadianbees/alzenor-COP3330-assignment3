@@ -1,0 +1,41 @@
+public class findIt
+
+    public String getText method takes in File file throws IOException
+
+        declare String line
+        initialize String old to ""
+        initialize BufferedReader read with FileReader of file passed in
+
+        while line reads in lines of file and that has not reached null
+             add line and a newline character to old
+
+        read close
+
+        return old
+
+
+    public String replaceWord method takes in String old
+
+       initialize String newText to string returned by replaceAll called by old
+       return newText
+
+
+    public boolean output method takes in String newTest String outputName throws IOException'
+
+        initialize BufferedWriter writr to write to file of name outputName
+        write newText to outputFile
+
+        print "Successful output!"
+
+        close writr
+
+        return true
+
+    public String askOutput method
+
+        initialize outputName to take in user input using Scanner
+        initialize String name to ""
+        print "Enter name of output file: "
+        add user input to name
+
+        return name

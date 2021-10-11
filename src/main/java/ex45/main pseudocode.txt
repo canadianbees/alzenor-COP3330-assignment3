@@ -1,0 +1,12 @@
+public class main
+
+   main method throws IOException
+        initialize File input to input file path
+
+        if file does not exist
+            print "File does not exist"
+
+        else
+            initialize findIt quote to findIt class
+
+            call output with replaceWord, getText, and askOutput

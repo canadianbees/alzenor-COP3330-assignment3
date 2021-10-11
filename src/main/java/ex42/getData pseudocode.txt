@@ -1,0 +1,56 @@
+public class getData
+
+
+	public List<Employee> listofEmployees takes in File file, throws IOException
+
+		initialize data using BufferedReader, pass in path of file
+		
+		declare String person
+		declare String [] info
+
+		Declare list <Employee> as ArrayList
+
+		While end of file (null)  is not reached, reads in each line storing it in person
+			split person by comma and store the indexes in info
+			
+			add the information to list, pass indexes of info into new Employee
+		
+		close data
+		return the list
+
+
+
+	
+	public String printChart takes in List<Employee> list
+
+
+		initalize longest using getLengths class
+
+		initialize int longFN to longest.getLongestFN(list)
+		initialize int longLN to longest.getLongestLN(list)
+		initialize int longSALto longest.getLongestSAL(list)
+
+		initialize int totalDash to longLN + LongFN + longSAL
+
+		initialize String output to String.format("%-"+longLN+ "s %-"+longFN+"s %s\n", "Last", "First", "Salary")
+
+		for loop running starting at 0, running until i = totalDash
+			add "-" to output string
+		
+		add newline character to output string
+
+		for each employee in list
+			initalize StringBuilder ln, get string from lastN getter
+			initalize StringBuilder fn, get string from firstN getter
+
+			while last name length is less than or equal to longLN
+				append " " to ln
+			
+			while first name length is less than or equal to longFN
+				appened " " to fn
+
+			add last name, first name, and salary to output string
+		
+		return output
+
+		

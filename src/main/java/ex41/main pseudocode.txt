@@ -1,0 +1,14 @@
+public class Main
+
+	main method throw IOException
+		initialize file, get file's path
+
+		if the file does not exist
+			print file does not exist
+
+		else
+			initialize fileScrape name
+			
+			call readNOut through name
+
+			

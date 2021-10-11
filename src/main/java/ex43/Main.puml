@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+Main <|-- createWeb
+createWeb <|-- createHTML
+
+class Main
+{
++public static void main(String [] args)
+}
+class createHTML {
++public String genSkeleton(String sn, String auth)
++public void genHtml(String sn, String auth)
+}
+
+class createWeb {
++public String askSiteName()
++public String askAuthor()
++public void genWeb(String sn, String auth)
++public boolean cssDirect(String sn)
++public boolean jsDirect(Strings sn)
++public boolean mainDirect(String sn)
+
+
+}
+
+@enduml

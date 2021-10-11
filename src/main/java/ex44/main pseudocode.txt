@@ -1,0 +1,15 @@
+public class main
+
+    main method throws IOException, ParseException
+        initialize bodega to Store class
+        initialize file to input file pass
+        initialize Map<String,Products> inventory to readJSON with file passed in //readJSON called through bodega
+
+        initialize boolean found to false
+
+        while found is false
+
+            found is equal to searchStore with inventory, and findThis passed in //findThis and searchStore are called though bodega
+
+            if found is false
+                print "Sorry, that product was not found in our inventory."

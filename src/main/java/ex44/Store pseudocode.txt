@@ -1,0 +1,41 @@
+public class Store
+
+    public String findThis method
+        initialize input to take in user input using Scanner
+        print "What is the product name? "
+        initialize String prodName to ""
+        add user input to prodName
+
+        return prodName
+
+    public Map<String,Products> readJSON method takes in File in throws IOException, ParseException
+        initialize Map<String, Products> inventory to HashMap
+        initialize jsonPar to JSONParser
+
+        initialize JSONObject contents to parsing of in casted to JSONObject
+        initialize JSONArray catalog to contents getting "products" casted as JSONArray
+
+        for each object in catalog
+            initialize JSONObject info to the object casted to JSONObject
+            initialize String name to info at "name", casted to String
+            initialize double price to info at "price", casted to double
+            initialize long quant to info at "quantity", casted to long
+
+            put into inventory with name as key and products class as value
+
+
+        return inventory
+
+
+    public boolean searchStore method takes in Map<String, Products> inventory and String find
+        for each item in inventory
+            initialize String key to key of item
+
+            if key matches find
+                print "Name: "+key
+                print "Price: .%2f"+ price of item
+                print "Quantity: " + quantity of item
+
+                return true;
+
+        return false if key does not match find

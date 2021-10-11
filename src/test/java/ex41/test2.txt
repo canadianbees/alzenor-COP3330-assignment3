@@ -1,0 +1,12 @@
+fruit, peach
+pit, apple
+kiwi, hairy
+grapes, tiny
+celery, vegetable
+watermelon, big
+cantaloupe, melon
+plums, purple
+limes, sour
+lemons, sour
+bananas, joe
+bananas, joelle

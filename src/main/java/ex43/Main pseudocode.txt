@@ -1,0 +1,6 @@
+public class Main
+{
+    main function
+        initialize website to createWeb class
+        call genWeb with its parameters being askSiteName and askAuthor
+}

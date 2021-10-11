@@ -1,0 +1,13 @@
+public class Main
+
+    public math method throws IOException
+
+        initialize File input to input file path
+
+        if file does not exist
+            print "File does not exist"
+
+        else
+            initialize Frequency word to Frequency class
+
+            call wordFreq, sortByFreq, and getWords

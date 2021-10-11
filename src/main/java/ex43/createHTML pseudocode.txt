@@ -1,0 +1,13 @@
+public class create HTML
+
+    public String genSkeleton takes in String sitename and String author
+
+        return string with html syntax, with sitename for title and author for the author
+
+
+    public void genHtml takes in String sitename and String author, throws IOException
+
+        Initialize htmlF to file path
+        Initialize writr using BufferedWriter, pass in htmlF to new FileWriter
+        call genSkeleton and write the string it returns to the output file
+        close writer

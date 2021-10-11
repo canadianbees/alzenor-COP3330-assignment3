@@ -1,0 +1,16 @@
+public class Employee
+{
+
+	declare private final String lastN
+	declare private final String firstN
+	declare private final String salary
+
+
+	getter for lastN
+	getter for firstN
+	getter for salary
+		
+
+	constructor for lastN, firstN, and salary
+
+}

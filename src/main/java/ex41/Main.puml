@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+Main <|-- fileScrape
+
+class Main
+{
++public static void main(String [] args)
+}
+
+class fileScrape {
++ public String readNOut(File file)
+}
+
+
+@enduml

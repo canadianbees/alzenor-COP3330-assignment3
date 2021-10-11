@@ -1,0 +1,11 @@
+{
+ "products" : [
+ {"name": "Bread", "price": 4.35, "quantity": 7 },
+ {"name": "Water", "price": 0.52, "quantity": 9 },
+ {"name": "Milk", "price": 4.20, "quantity": 8 },
+ {"name": "Eggs", "price": 2.39, "quantity": 5 },
+ {"name": "Flour", "price": 0.50, "quantity": 0 },
+ {"name": "Sugar", "price": 0.75, "quantity": 1 },
+ {"name": "Salt", "price": 1.00, "quantity": 120 }
+ ]
+}
